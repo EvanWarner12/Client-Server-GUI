@@ -6,7 +6,7 @@ from tkinter import simpledialog
 
 hostname = socket.gethostname()
 HEADER = 1024
-HOST = '10.18.8.12'  # Evans IP Address for server # socket.gethostbyname(hostname)
+HOST = socket.gethostbyname(hostname)
 PORT = 5555
 
 
